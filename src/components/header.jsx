@@ -1,7 +1,8 @@
+import aurora from "../src/icons/aurora.svg"
 export default function Header() {
   return (
     <header className="hero-section">
-      <img src="../src/icons/aurora.svg" alt="aurora" id="aurora" loading="lazy" />
+      <img src={aurora} alt="aurora" id="aurora" />
       <nav>
         <div id="logo">
           <img src="../src/icons/icon-chain.svg" alt="icon-chain" />
